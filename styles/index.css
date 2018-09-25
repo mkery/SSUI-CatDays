@@ -1,0 +1,119 @@
+
+body{
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('../images/socks.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 40pt;
+  color: black;
+  position: absolute;
+  margin: auto;
+}
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 32pt;
+  color: aliceblue;
+  position: absolute;
+  margin: auto;
+  left: 0.25em;
+}
+
+
+p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+
+.headerArea{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+.titleArea{
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  height: 4em;
+  font-size: 32pt;
+}
+
+.navArea{
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  min-height: 2em;
+  display: inline-block;
+  margin-bottom: 1em;
+  border-bottom: 10px solid white;
+}
+
+.contentArea{
+  width: 100vw;
+  background-color: rgba(255,255,255,0.8);
+  min-height: 2em;
+  display: inline-block;
+  text-align: center;
+}
+
+.itemBlock{
+  width: 26%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  padding-top: 1em;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.catImage{
+  width: calc(100% - 1em);
+  height: calc(80% - 1em);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+   image-orientation: from-image;
+  filter: grayscale(0.5);
+}
+
+#cat-1
+{
+  background-image: url("../images/Cat1.JPG");
+}
+#cat-2
+{
+  background-image: url("../images/Cat2.JPG");
+}
+#cat-3
+{
+  background-image: url("../images/Cat3.JPG");
+}
+
+.catTitle{
+  font-family: 'Fredoka One', cursive;
+  font-size: 14pt;
+}
+
+.catDesc{
+  font-size: 12pt;
+  text-align: left;
+}
